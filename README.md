@@ -7,8 +7,13 @@ This is a solver of the Hasegawa-Wakatani equations :
 using a nonlinear Fortran spectral solver. The structure of the code is highly inspired by GBS and the results have been compared with the work of Ammar Hakim http://ammar-hakim.org/sj/je/je17/je17-hasegawa-wakatani.html
 
 To run it :
--open local/dirs.inc and change the path of the main folder accordingly to yours.
--type _make_ in HeLaz/
--launch matlab to run setup.m (you can easily tweak the parameters from them) that writes automatically the input parameters file wk/fort.90
--run.m to run it or you can also launch the code manually with _./../bin/helaz_ from wk/
--you can then use analysis.m to obtain various plots and gifs
+  open local/dirs.inc and change the path of the main folder accordingly to yours.
+
+  type _make_ in HeLaz/
+
+  launch matlab to run setup.m (you can easily tweak the parameters from them) that writes automatically the input parameters file wk/fort.90
+
+  run.m to run it or you can also launch the code manually with _./../bin/helaz_ from wk/
+
+  you can then use analysis.m to obtain various plots and gifs
+
